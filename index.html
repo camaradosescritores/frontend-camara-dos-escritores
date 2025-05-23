@@ -1,0 +1,62 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Camara dos Escritores</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #fff; color: #111; }
+    header, footer { background-color: #111; color: #fff; padding: 1rem 0; text-align: center; }
+    nav ul { list-style: none; padding: 0; display: flex; justify-content: center; gap: 1rem; }
+    nav a { color: #f0a500; text-decoration: none; }
+    .carousel, .featured, .subscribe { padding: 2rem; text-align: center; }
+    .subscribe button { background-color: #f0a500; color: #fff; border: none; padding: 0.75rem 2rem; border-radius: 5px; cursor: pointer; }
+    .subscribe button:hover { background-color: #cf8800; }
+    .footer-nav a { color: #f0a500; margin: 0 0.5rem; text-decoration: none; font-size: 0.9rem; }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Camara dos Escritores</h1>
+    <nav>
+      <ul>
+        <li><a href="#">Início</a></li>
+        <li><a href="#">Poemas</a></li>
+        <li><a href="#">Músicas</a></li>
+        <li><a href="#">Textos</a></li>
+        <li><a href="#">Login</a></li>
+        <li><a href="#">Cadastre-se</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="carousel">
+    <h2>Destaques dos Membros</h2>
+    <p>(Carrossel visual aqui)</p>
+  </section>
+
+  <section class="featured">
+    <h2>Obras Recentes</h2>
+    <p>Veja os últimos textos publicados por nossos escritores.</p>
+  </section>
+
+  <section class="subscribe">
+    <h2>Quer publicar sem limites?</h2>
+    <p>Assine por apenas R$9,90 por mês e liberte sua criatividade sem restrições.</p>
+    <button onclick="window.location.href='https://camara-dos-escritores-api.onrender.com/api/pagamento/criar'">Torne-se Assinante</button>
+  </section>
+
+  <footer>
+    <div class="footer-nav">
+      <a href="#">Sobre</a>
+      <a href="#">Ajuda</a>
+      <a href="#">Fórum</a>
+      <a href="#">Privacidade</a>
+      <a href="#">Termos</a>
+      <a href="#">Sitemap</a>
+    </div>
+    <p>© 2025 Camara dos Escritores. Todos os direitos reservados.</p>
+  </footer>
+</body>
+</html>
